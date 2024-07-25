@@ -1,0 +1,254 @@
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0
+}
+
+
+body {
+    font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    font-size: 1em;
+    color: #666;
+    -webkit-font-smoothing: antialiased
+}
+
+::selection {
+    background: rgba(37, 104, 163, 0.2)
+}
+
+::-moz-selection {
+    background: rgba(37, 104, 163, 0.2)
+}
+
+a {
+    text-decoration: none;
+    color: #4e97d8
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin-top: 1em;
+    margin-bottom: .5em;
+    font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    font-weight: lighter;
+    color: #333;
+    -webkit-font-smoothing: antialiased
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 2.5em;
+    line-height: 1.2em;
+    letter-spacing: .05em
+}
+
+pre code {
+    padding: 0;
+    background: 0;
+    border: 0;
+    word-wrap: normal
+}
+
+table {
+    color: #333;
+    font-size: .9em;
+    text-align: center;
+    line-height: 40px;
+    border-spacing: 0;
+    border: 2px solid #4e97d8;
+    width: 90%;
+    margin: 50px auto
+}
+
+thead tr:first-child {
+    background-color: #4e97d8;
+    color: #f8f8f8;
+    border: 0
+}
+
+th {
+    font-weight: bold
+}
+
+th,
+td {
+    padding: 0 8px 0 8px
+}
+
+.btn,
+.navigation__item a {
+    padding: 10px 20px;
+    border: 1px solid #4e97d8;
+    border-radius: 20px;
+    font-size: .9em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-shadow: none;
+    color: #4e97d8;
+    -webkit-font-smoothing: antialiased
+}
+
+.btn:hover,
+.navigation__item a:hover {
+    color: #4e97d8;
+    border-color: #4e97d8
+}
+
+.btn-border-small {
+    border: 1px solid #4e97d8;
+    border-radius: 20px;
+    padding: 6px 8px;
+    font-size: .8em;
+    margin-left: 10px
+}
+
+.btn-secondary {
+    border-color: #5ba4e5;
+    color: #5ba4e5
+}
+
+.btn-secondary:hover {
+    color: #217fd2;
+    border-color: #217fd2
+}
+
+.btn-tertiary {
+    border-color: #999;
+    color: #999
+}
+
+.btn-tertiary:hover {
+    color: #737373;
+    border-color: #737373
+}
+
+.btn-large {
+    padding: 10px 24px;
+    font-size: 1.1em
+}
+
+.btn-small {
+    padding: 8px 12px;
+    font-size: .7em
+}
+
+nav {
+    display: inline-block;
+    position: relative
+}
+
+.navigation {
+    display: inline-block;
+    float: left;
+    position: relative;
+    margin: 0;
+    list-style-type: none
+}
+
+.navigation__item {
+    display: inline-block;
+    margin: 5px 1px 0 0;
+    line-height: 1em
+}
+
+.navigation__item a {
+    display: block;
+    position: relative;
+    border-color: #fff;
+    color: #fff;
+    opacity: .8
+}
+
+.navigation__item a:hover {
+    color: #fff;
+    border-color: #fff;
+    opacity: 1
+}
+
+.navigation--social a {
+    border: 0;
+    padding: 6px 8px 6px 9px
+}
+
+.navigation--social a .label {
+    display: none
+}
+
+.navigation--social a .icon {
+    display: block;
+    font-size: 1.7em
+}
+
+.pagination {
+    display: block;
+    margin: 0 0 4em 0
+}
+
+.pagination__page-number {
+    margin: 0;
+    font-size: .8em;
+    color: #999
+}
+
+.pagination__newer {
+    margin-right: 1em
+}
+
+.pagination__older {
+    margin-left: 1em
+}
+
+i {
+    font-family: "entypo";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px
+}
+
+.social {
+    font-size: 22px
+}
+
+.icon-social {
+    font-family: "entypo-social";
+    font-size: 22px;
+    display: block;
+    position: relative
+}
+
+*:focus {
+    outline: 0
+}
+
+@media all and (max-width:1100px) {
+    .panel-cover__logo {
+        width: 70px
+    }
+
+    .panel-title {
+        font-size: 2em
+    }
+
+    .panel-subtitle {
+        font-size: 1em
+    }
+
+    .panel-cover__description {
+        margin: 0 10px;
+        font-size: .9em
+    }
+
+    .navigation--social {
+        margin-top: 5px;
+        margin-left: 0
+    }
+}

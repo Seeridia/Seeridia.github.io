@@ -1,0 +1,136 @@
+body {
+    display: block;
+    margin: 8px;
+}
+
+.SelfDescription {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+:root {
+    --front-body-color: linear-gradient(to left, rgba(243, 243, 243, .33), rgba(255, 255, 255, .33));
+    --pic-cover-color: linear-gradient(90deg, hsla(0, 0%, 98%, 0) 0, hsla(0, 0%, 98%, .013) 8.1%, hsla(0, 0%, 98%, .049) 15.5%, hsla(0, 0%, 98%, .104) 22.5%, hsla(0, 0%, 98%, .175) 29%, hsla(0, 0%, 98%, .259) 35.3%, hsla(0, 0%, 98%, .352) 41.2%, hsla(0, 0%, 98%, .45) 47.1%, hsla(0, 0%, 98%, .55) 52.9%, hsla(0, 0%, 98%, .648) 58.8%, hsla(0, 0%, 98%, .741) 64.7%, hsla(0, 0%, 98%, .825) 71%, hsla(0, 0%, 98%, .896) 77.5%, hsla(0, 0%, 98%, .951) 84.5%, hsla(0, 0%, 98%, .987) 91.9%, #fff);
+    --pic-background-cover: #fafafa;
+    --pic-cover-color-m: linear-gradient(180deg, hsla(0, 0%, 98%, 0) 0, hsla(0, 0%, 98%, .013) 8.1%, hsla(0, 0%, 98%, .049) 15.5%, hsla(0, 0%, 98%, .104) 22.5%, hsla(0, 0%, 98%, .175) 29%, hsla(0, 0%, 98%, .259) 35.3%, hsla(0, 0%, 98%, .352) 41.2%, hsla(0, 0%, 98%, .45) 47.1%, hsla(0, 0%, 98%, .55) 52.9%, hsla(0, 0%, 98%, .648) 58.8%, hsla(0, 0%, 98%, .741) 64.7%, hsla(0, 0%, 98%, .825) 71%, hsla(0, 0%, 98%, .896) 77.5%, hsla(0, 0%, 98%, .951) 84.5%, hsla(0, 0%, 98%, .987) 91.9%, #fff);
+    --font-title-color: black;
+    --font-p-color: #898989;
+    --box-shadow-color: 0 1px 35px -8px rgba(26, 26, 26, .6);
+    --container-background-color: linear-gradient(to left, rgba(255, 255, 255, .6), rgba(255, 255, 255, .6));
+    --category-hover-color: #b1cee3;
+    --bg: #1a1e2d;
+    --green: #a5ea9b;
+    --pink: #ff61d8;
+    --blue: #569cfa;
+    --orange: #ffcc81;
+    --cyan: #7ed1e2;
+    --phoneBar-bg: #fff;
+    --phoneBar-font-color: #717171;
+}
+
+.frontRoot {
+    background: var(--front-body-color), url(https://cdn.jsdelivr.net/gh/LinMoQC/LinmoBlogCDN@master/homeBg.jpg) center;
+    background-size: cover;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    background-attachment: fixed;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(#141e30, #243b55);
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--body-color);
+    transition: all .3s ease;
+    list-style: none;
+}
+
+:root {
+    --body-color: #E4E9F7;
+    --shell-color: #FFF;
+    --primary-color: #695CFE;
+    --primary-color-light: #F6F5FF;
+    --toggle-color: #DDD;
+    --text-color: #707070;
+}
+
+*::-webkit-scrollbar {
+    width: 5px;
+    height: 0;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom right, #4d7fff, #1a56ff);
+    border-radius: 5px;
+}
+
+.Social {
+    padding-top: 20px;
+}
+
+.SocialBtn {
+    padding-right: 10px;
+}
+
+.iUp {
+    -webkit-text-size-adjust: 100%;
+    --front-body-color: linear-gradient(to left, rgba(243, 243, 243, .33), rgba(255, 255, 255, .33));
+    --pic-cover-color: linear-gradient(90deg, hsla(0, 0%, 98%, 0) 0, hsla(0, 0%, 98%, .013) 8.1%, hsla(0, 0%, 98%, .049) 15.5%, hsla(0, 0%, 98%, .104) 22.5%, hsla(0, 0%, 98%, .175) 29%, hsla(0, 0%, 98%, .259) 35.3%, hsla(0, 0%, 98%, .352) 41.2%, hsla(0, 0%, 98%, .45) 47.1%, hsla(0, 0%, 98%, .55) 52.9%, hsla(0, 0%, 98%, .648) 58.8%, hsla(0, 0%, 98%, .741) 64.7%, hsla(0, 0%, 98%, .825) 71%, hsla(0, 0%, 98%, .896) 77.5%, hsla(0, 0%, 98%, .951) 84.5%, hsla(0, 0%, 98%, .987) 91.9%, #fff);
+    --pic-background-cover: #fafafa;
+    --pic-cover-color-m: linear-gradient(180deg, hsla(0, 0%, 98%, 0) 0, hsla(0, 0%, 98%, .013) 8.1%, hsla(0, 0%, 98%, .049) 15.5%, hsla(0, 0%, 98%, .104) 22.5%, hsla(0, 0%, 98%, .175) 29%, hsla(0, 0%, 98%, .259) 35.3%, hsla(0, 0%, 98%, .352) 41.2%, hsla(0, 0%, 98%, .45) 47.1%, hsla(0, 0%, 98%, .55) 52.9%, hsla(0, 0%, 98%, .648) 58.8%, hsla(0, 0%, 98%, .741) 64.7%, hsla(0, 0%, 98%, .825) 71%, hsla(0, 0%, 98%, .896) 77.5%, hsla(0, 0%, 98%, .951) 84.5%, hsla(0, 0%, 98%, .987) 91.9%, #fff);
+    --font-title-color: black;
+    --font-p-color: #898989;
+    --box-shadow-color: 0 1px 35px -8px rgba(26, 26, 26, .6);
+    --container-background-color: linear-gradient(to left, rgba(255, 255, 255, .6), rgba(255, 255, 255, .6));
+    --category-hover-color: #b1cee3;
+    --bg: #1a1e2d;
+    --green: #a5ea9b;
+    --pink: #ff61d8;
+    --blue: #569cfa;
+    --orange: #ffcc81;
+    --cyan: #7ed1e2;
+    --phoneBar-bg: #fff;
+    --phoneBar-font-color: #717171;
+    --body-color: #E4E9F7;
+    --shell-color: #FFF;
+    --primary-color: #695CFE;
+    --primary-color-light: #F6F5FF;
+    --toggle-color: #DDD;
+    --text-color: #707070;
+    list-style: none;
+    color: #666;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    unicode-bidi: isolate;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    transition: all 2s cubic-bezier(0.19,1,0.22,1);
+    opacity: 1;
+    transform: translate3d(0,0,0);
+}
